@@ -6,7 +6,7 @@ $ sudo singularity build centos7_nginx.simg Singularity
 ```
 
 ## nginxの設定
-nginx.confを適宜修正
+置いてあるnginxはDDBJ nginxをリバースプロキシとして使う設定になっている。適宜修正すること。
 
 ## instanceの起動
 ```
